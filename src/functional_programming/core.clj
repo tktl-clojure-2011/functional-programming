@@ -24,4 +24,7 @@
 (defn parity [a-seq]
   ":(")
 
+(def my-double
+  (constantly ":("))
+
 ;(

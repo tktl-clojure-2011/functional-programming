@@ -39,3 +39,7 @@
        (parity [:a :b :c])            => #{:a :b :c}
        (parity [:a :b :c :a])         => #{:b :c}
        (parity [1 1 2 1 2 3 1 2 3 4]) => #{2 4})
+
+(facts "my-double"
+       (my-double 0) => 0 
+       (my-double 5) => 10)
