@@ -39,4 +39,7 @@
 (def matrix-sum
   (constantly ":("))
 
+(def first-result
+  (constantly ":("))
+
 ;(

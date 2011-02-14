@@ -59,3 +59,6 @@
 (facts "matrix-sum"
        (matrix-sum [[1 2 3] [4 5 6]]) => 21
        (matrix-sum [[1]]) => 1)
+
+(facts "first-result"
+       (first-result #(get % :moi) [{:a 1 :b 2} {:moi "maailma" :b 3} {:pony nil :moi "moi"}]) => "maailma")
