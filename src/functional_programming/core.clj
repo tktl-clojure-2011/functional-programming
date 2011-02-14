@@ -33,4 +33,7 @@
 (def my-empty?
   (constantly ":("))
 
+(def find-first
+  (constantly ":("))
+
 ;(

@@ -51,3 +51,7 @@
 (facts "my-empty?"
        (my-empty? [])     => true
        (my-empty? {:a 1}) => false)
+
+(facts "find-first"
+       (find-first not-empty [[] nil '() [:D]]) => [:D]
+       (find-first pos? [-2 0 -31 42])          => 42)
