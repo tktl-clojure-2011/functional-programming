@@ -2,3 +2,8 @@
 
 (defn concat-all [a-seq]
   ":(")
+
+(defn string-cat [a-seq]
+  ":(")
+
+;(
