@@ -43,3 +43,7 @@
 (facts "my-double"
        (my-double 0) => 0 
        (my-double 5) => 10)
+
+(facts "deep-double"
+       (deep-double [[1 2] [3 4 5]])   => [[2 4] [6 8 10]]
+       (deep-double [[42 -4] [] [13]]) => [[84 -8] [] [26]])
