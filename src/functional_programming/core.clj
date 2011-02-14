@@ -9,4 +9,7 @@
 (defn seq-length [a-seq]
   ":(")
 
+(defn my-reverse [a-seq]
+  ":(")
+
 ;(

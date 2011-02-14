@@ -15,3 +15,8 @@
        (seq-length [1 2 3])        => 3
        (seq-length '(:a :b :c :D)) => 4
        (seq-length [])             => 0)
+
+(facts "my-reverse"
+       (my-reverse [1 2 3 4])               => [4 3 2 1]
+       (my-reverse '(:cat :pony :seahorse)) => [:seahorse :pony :cat]
+       (my-reverse [])                      => ())
