@@ -12,4 +12,10 @@
 (defn my-reverse [a-seq]
   ":(")
 
+(defn insert [a-seq elem]
+  ":(")
+
+(defn insertion-sort [seq-1 seq-2]
+  ":(")
+
 ;(

@@ -20,3 +20,12 @@
        (my-reverse [1 2 3 4])               => [4 3 2 1]
        (my-reverse '(:cat :pony :seahorse)) => [:seahorse :pony :cat]
        (my-reverse [])                      => ())
+
+(facts "insert"
+       (insert [] 2)    => [2]
+       (insert [1 3] 2) => [1 2 3])
+
+(facts "insertion-sort"
+       (insertion-sort [])            => ()
+       (insertion-sort [5 2 3 1])     => [1 2 3 5]
+       (insertion-sort [9 8 7 6 5 4]) => [4 5 6 7 8 9])
