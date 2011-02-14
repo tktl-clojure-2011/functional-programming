@@ -55,3 +55,7 @@
 (facts "find-first"
        (find-first not-empty [[] nil '() [:D]]) => [:D]
        (find-first pos? [-2 0 -31 42])          => 42)
+
+(facts "matrix-sum"
+       (matrix-sum [[1 2 3] [4 5 6]]) => 21
+       (matrix-sum [[1]]) => 1)
