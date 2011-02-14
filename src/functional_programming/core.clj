@@ -6,4 +6,7 @@
 (defn string-cat [a-seq]
   ":(")
 
+(defn seq-length [a-seq]
+  ":(")
+
 ;(

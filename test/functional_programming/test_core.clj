@@ -10,3 +10,8 @@
        (string-cat ["I" "am" "Legend"])   => "I am Legend"
        (string-cat ["Scanner" "Darkly"])  => "Scanner Darkly"
        (string-cat ["More  " "  Space "]) => "More     Space ")
+
+(facts "seq-length"
+       (seq-length [1 2 3])        => 3
+       (seq-length '(:a :b :c :D)) => 4
+       (seq-length [])             => 0)
