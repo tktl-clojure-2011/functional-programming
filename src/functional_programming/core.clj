@@ -21,4 +21,7 @@
 (defn seq-min-max [a-seq]
   ":(")
 
+(defn parity [a-seq]
+  ":(")
+
 ;(

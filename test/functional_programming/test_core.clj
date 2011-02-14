@@ -34,3 +34,8 @@
        (seq-min-max [2 7 3 15 4]) => [2 15]
        (seq-min-max [-2 -100 -7]) => [-100 -2]
        (seq-min-max [1])          => [1 1])
+
+(facts "parity"
+       (parity [:a :b :c])            => #{:a :b :c}
+       (parity [:a :b :c :a])         => #{:b :c}
+       (parity [1 1 2 1 2 3 1 2 3 4]) => #{2 4})
