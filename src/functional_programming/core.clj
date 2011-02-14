@@ -15,7 +15,7 @@
 (defn insert [a-seq elem]
   ":(")
 
-(defn insertion-sort [seq-1 seq-2]
+(defn insertion-sort [a-seq]
   ":(")
 
 ;(
