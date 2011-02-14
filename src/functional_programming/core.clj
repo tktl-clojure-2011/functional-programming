@@ -18,4 +18,7 @@
 (defn insertion-sort [a-seq]
   ":(")
 
+(defn seq-min-max [a-seq]
+  ":(")
+
 ;(

@@ -29,3 +29,8 @@
        (insertion-sort [])            => ()
        (insertion-sort [5 2 3 1])     => [1 2 3 5]
        (insertion-sort [9 8 7 6 5 4]) => [4 5 6 7 8 9])
+
+(facts "seq-min-max"
+       (seq-min-max [2 7 3 15 4]) => [2 15]
+       (seq-min-max [-2 -100 -7]) => [-100 -2]
+       (seq-min-max [1])          => [1 1])
