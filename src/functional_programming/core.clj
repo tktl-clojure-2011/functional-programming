@@ -30,4 +30,7 @@
 (def deep-double
   (constantly ":("))
 
+(def my-empty?
+  (constantly ":("))
+
 ;(

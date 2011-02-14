@@ -47,3 +47,7 @@
 (facts "deep-double"
        (deep-double [[1 2] [3 4 5]])   => [[2 4] [6 8 10]]
        (deep-double [[42 -4] [] [13]]) => [[84 -8] [] [26]])
+
+(facts "my-empty?"
+       (my-empty? [])     => true
+       (my-empty? {:a 1}) => false)
