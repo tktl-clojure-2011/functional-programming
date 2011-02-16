@@ -3,7 +3,7 @@
         midje.sweet))
 
 (facts "concat-all"
-       (concat-all []) => []
+       (concat-all []) => empty?
        (concat-all [[1 2] [3 4] [5 6]]) => [1 2 3 4 5 6])
 
 (facts "string-cat"
